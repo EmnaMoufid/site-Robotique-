@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="#"><img src="img/logo.png" alt="logo"></a>
+    <div class="topnav-right">
+      <a href="acceuil.htm">Acceuil</a>
+      <a href="presentation.html">Présentation</a>
+      <a class="active" href="inscription.html">Inscription</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <p align="center"><b>
+      <font size="8" color="#4872ae"> <br> INSCRIPTION </font>
+    </b></p>
+
+  <div class="container">
+    <form name="inscriptionForm" action="" onsubmit="return validerInscription()" method="post">
+
+      <label for="">Nom</label>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom...">
+
+      <label for="">Prenom</label>
+      <input type="text" id="prenom" name="prenom" placeholder="Votre prénom...">
+
+      <label for="">Email</label>
+      <input type="text" id="email" name="email" placeholder="Exemple: user@email.com">
+
+      <label for="">Mot de passe</label>
+      <input type="password" id="password" name="password" placeholder="Votre mot de passe...">
+
+      <input type="submit" value="S'inscrire">
+
+    </form>
+  </div>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <script src="js/validation.js"></script>
+</body>
+
+</html>
